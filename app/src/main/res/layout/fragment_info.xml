@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoFragment"
+    android:gravity="bottom"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@id/nav_info">
+
+    <TextView
+        android:id="@+id/info_textView_gosp_jed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/info_gosp_jed"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/info_spinner_gosp_jed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/info_textView_gosp_jed"
+        android:layout_alignTop="@id/info_textView_gosp_jed"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:entries="@array/info_gospodarska_jedinica"/>
+
+
+    <TextView
+        android:id="@+id/info_textView_odjel_odsjek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/info_odjel_odsjek"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"/>
+    <EditText
+        android:id="@+id/info_editText_odjel_odsjek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/info_textView_odjel_odsjek"
+        android:layout_toEndOf="@id/info_textView_odjel_odsjek"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="6dp"
+        android:ems="10"
+        android:inputType="text"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/info_textView_povrsina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/info_povrsina"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="64dp"/>
+    <EditText
+        android:id="@+id/info_editText_povrsina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/info_textView_povrsina"
+        android:layout_toEndOf="@id/info_textView_povrsina"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="6dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="@string/info_povrsina_tooltip"
+        android:textColor="#707a8a"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/info_textView_vrsta_sjece"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/info_vrsta_sjece"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="96dp"/>
+    <EditText
+        android:id="@+id/info_editText_vrsta_sjece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/info_textView_vrsta_sjece"
+        android:layout_toEndOf="@id/info_textView_vrsta_sjece"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="6dp"
+        android:ems="10"
+        android:inputType="text"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/info_textView_vrsta_prihoda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/info_vrsta_prihoda"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="128dp"/>
+    <EditText
+        android:id="@+id/info_editText_vrsta_prihoda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/info_textView_vrsta_prihoda"
+        android:layout_toEndOf="@id/info_textView_vrsta_prihoda"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="6dp"
+        android:ems="10"
+        android:inputType="text"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="16dp" />
+
+
+</RelativeLayout>

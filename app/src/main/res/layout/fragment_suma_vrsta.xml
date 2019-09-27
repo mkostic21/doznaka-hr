@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SumaVrstaFragment"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingTop="16dp"
+        android:paddingBottom="4dp">
+        <TextView
+            android:id="@+id/suma_vrsta_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+    <!-- Separating line-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/background">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="@string/suma_vrsta_header_deb_st"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="@string/suma_vrsta_header_tarifa"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="@string/suma_vrsta_header_N"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="@string/suma_vrsta_header_V"/>
+    </LinearLayout>
+
+    <!-- Separating line-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/background">
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_1"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_2"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_3"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_4"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_5"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_6"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_7"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_8"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_9"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_10"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_11"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_12"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_13"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_14"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_15"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_16"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_17"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_debSt18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="@string/suma_vrsta_debSt_18"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Separating line-->
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/background">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp" />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_tarifa18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Separating line-->
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/background">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/suma_vrsta_n1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black" />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black" />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black" />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/suma_vrsta_n12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+
+                    android:textColor="@android:color/black" />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_n18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Separating line-->
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/background">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background"></LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/suma_vrsta_volumen18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background">
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Separating line-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/background">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="@string/suma_vrsta_header_N"/>
+        <TextView
+            android:id="@+id/suma_vrsta_total_N"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_weight="1"
+             />
+
+        <!-- Separating line-->
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/background">
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:text="@string/suma_vrsta_header_V"/>
+        <TextView
+            android:id="@+id/suma_vrsta_total_volumen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_weight="1"
+             />
+    </LinearLayout>
+</LinearLayout>

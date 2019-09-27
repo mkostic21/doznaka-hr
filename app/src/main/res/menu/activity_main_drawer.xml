@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_menu_info"
+            android:title="@string/menu_info" />
+        <item
+            android:id="@+id/nav_vrste"
+            android:icon="@drawable/ic_menu_vrste"
+            android:title="@string/menu_vrste" />
+        <item
+            android:id="@+id/nav_doznaka"
+            android:icon="@drawable/ic_menu_doznaka"
+            android:title="@string/menu_doznaka" />
+        <item
+            android:id="@+id/nav_suma"
+            android:icon="@drawable/ic_menu_suma"
+            android:title="@string/menu_suma" />
+        <item
+            android:id="@+id/nav_karta"
+            android:icon="@drawable/ic_menu_karta"
+            android:title="@string/menu_karta"/>
+    </group>
+
+    <item android:title="Title Placeholder">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoznakaFragment">
+    <LinearLayout
+        android:id="@id/nav_doznaka"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".DoznakaFragment">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:baselineAligned="false"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
+                <TextView
+                    android:id="@+id/doznaka_history1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/nav_header_vertical_spacing"
+                    android:textColor="@android:color/black"/>
+                <TextView
+                    android:id="@+id/doznaka_history2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/nav_header_vertical_spacing"
+                    android:textColor="@android:color/black"/>
+                <TextView
+                    android:id="@+id/doznaka_history3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/nav_header_vertical_spacing"
+                    android:textColor="@android:color/black"/>
+                <TextView
+                    android:id="@+id/doznaka_history4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/nav_header_vertical_spacing"
+                    android:textColor="@android:color/black"
+                    android:paddingBottom="@dimen/nav_header_vertical_spacing"/>
+                
+                <!-- line -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/background"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin">
+                </LinearLayout>
+                
+                <TextView
+                    android:id="@+id/doznaka_history5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/nav_header_vertical_spacing"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <NumberPicker
+                    android:id="@+id/doznaka_numberPicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/doznaka_radioButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableBottom="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/doznaka_radioButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableBottom="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/doznaka_radioButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableBottom="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/doznaka_radioButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableBottom="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/doznaka_radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableBottom="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/doznaka_radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableBottom="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/doznaka_radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableBottom="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/doznaka_radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableBottom="@android:drawable/btn_radio"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:gravity="center"> <!-- maybe change back -->
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/doznaka_confirm_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_fab_done" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

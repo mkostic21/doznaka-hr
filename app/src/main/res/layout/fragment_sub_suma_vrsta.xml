@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubSumaVrstaFragment"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="4dp">
+        <TextView
+            android:id="@+id/sub_suma_vrsta_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+    <!-- Separating line-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/background">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="@string/sub_suma_vrsta_header_promjer"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="@string/sub_suma_vrsta_header_N"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <!-- Separating line-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/background">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/sub_suma_vrsta_promjer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:paddingBottom="8dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+
+            <!-- Separating line-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/background">
+            </LinearLayout>
+            <TextView
+                android:id="@+id/sub_suma_vrsta_promjer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:paddingBottom="8dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+
+            <!-- Separating line-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/background">
+            </LinearLayout>
+            <TextView
+                android:id="@+id/sub_suma_vrsta_promjer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:paddingBottom="8dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+
+            <!-- Separating line-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/background">
+            </LinearLayout>
+            <TextView
+                android:id="@+id/sub_suma_vrsta_promjer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:paddingBottom="8dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+
+            <!-- Separating line-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/background">
+            </LinearLayout>
+            <TextView
+                android:id="@+id/sub_suma_vrsta_promjer5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:paddingBottom="8dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+
+            <!-- Separating line-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/background">
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Separating line-->
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/background">
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/sub_suma_vrsta_N1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_marginEnd="16dp" />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/sub_suma_vrsta_N2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_marginEnd="16dp" />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/sub_suma_vrsta_N3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_marginEnd="16dp" />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/sub_suma_vrsta_N4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_marginEnd="16dp" />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/background">
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/sub_suma_vrsta_N5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_marginEnd="16dp" />
+
+                <!-- Separating line-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/background">
+                </LinearLayout>
+
+            </LinearLayout>
+        <!-- Separating line-->
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/background">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:orientation="vertical"
+            tools:ignore="ContentDescription">
+
+            <ImageButton
+                android:id="@+id/sub_suma_vrsta_add1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_plus_1" />
+
+            <ImageButton
+                android:id="@+id/sub_suma_vrsta_add2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_plus_1"/>
+
+            <ImageButton
+                android:id="@+id/sub_suma_vrsta_add3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_plus_1" />
+            <ImageButton
+                android:id="@+id/sub_suma_vrsta_add4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_plus_1"/>
+            <ImageButton
+                android:id="@+id/sub_suma_vrsta_add5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_plus_1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:orientation="vertical"
+            tools:ignore="ContentDescription">
+
+            <ImageButton
+                android:id="@+id/sub_suma_vrsta_subtract1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_minus_1"/>
+            <ImageButton
+                android:id="@+id/sub_suma_vrsta_subtract2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_minus_1"/>
+            <ImageButton
+                android:id="@+id/sub_suma_vrsta_subtract3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_minus_1"/>
+            <ImageButton
+                android:id="@+id/sub_suma_vrsta_subtract4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_minus_1"/>
+            <ImageButton
+                android:id="@+id/sub_suma_vrsta_subtract5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_minus_1" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
