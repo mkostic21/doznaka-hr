@@ -4,6 +4,6 @@ Android app designed for Hrvatske Šume. The application is supposed to replace 
 
 In this stage the App is functional, but lacks additional features like GPS tracking.
 
-#Preview
+# What is it for..?
 
-![alt text](https://imgur.com/9G1NEIG)
+In short: it collects and stores user inputs about specific trees, and later exports the data into .xml file that can further be manipulated in MS Excel
